@@ -1,0 +1,398 @@
+#container{
+          
+    height:120px;
+    width: 100%;
+    display: block;
+   padding-top: 5px;
+   margin-top: -5px;
+    margin-bottom: 10px;
+    background-color: rgb(61, 57, 57);
+   
+    
+  
+  }
+  #logo{
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+    
+      height:60%;
+      width: 90%;
+      margin-top: 10px;
+  }
+  .logos{
+      
+      display: inline-block;
+      vertical-align: top;
+      height: 100%;
+      font-family: OpenSans,Arial;
+      width: 20%;  
+  }
+  .logos>h1{
+      margin-top: -5px;
+      margin-left: 47px;
+  }
+  .logos>h1>a{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-weight: 545;
+  }
+  .logos>h1>a>span{
+      color: #ff6e26;
+  }
+  
+  .logos>p{
+      margin-top: -20px;
+       font-weight: bold;
+      font-size: 12px;
+      text-align: center;
+      color:rgb(122, 122, 126);
+     
+  }
+  #search{
+      height: 100%;
+      width:45%;
+  }
+
+  #sign{
+      
+      display: flex;
+      justify-content: space-between;
+      height: 50%;
+      width:33%;
+  }#sign>div{
+      height: 100%;
+      width: 40%;
+      
+      color: white;
+  }
+  #sign>div~div{
+      width: 25%;
+     
+  }
+  #sign>div~div>button{
+   
+      border: none;
+      background-color:  rgb(61, 57, 57);
+    
+  }
+ 
+  #sign>div~div>button>a{
+      color: white;
+      text-decoration: none;
+      font-size:16px;
+  }
+  #sign>div~div~div>button>a{
+    font-size: 24px;
+}
+  
+  #sign>div~div>button>a:hover{
+      color: #ff6e26;
+  }
+  #sign>div>p{
+      margin-bottom: -3px;
+      margin-top: -5px;
+      color:rgb(143, 143, 146);
+    
+  }
+  #sign>div>select{
+      font-size:13px;
+      background-color:  rgb(61, 57, 57);
+      color: white;
+      border: none;
+  }
+  #sign>div>select:hover{
+     color: #ff6e26;
+  }
+  #searchb{
+  
+      height: 50%;
+      width: 100%;
+     
+  }
+
+ .example{
+     display: flex;
+      height: 100%;
+      width: 100%;
+     
+     border-radius: 5px;
+   
+     overflow:hidden;
+  }
+  .example>input{
+      height: 100%;
+      width:92%
+  }
+  .example>button{
+      width:8%;
+      height: 110%;
+     background-color:  #ff6e26;
+     color: white;
+     font-size: 20px;
+     font-weight: 50;
+  }
+
+  #searchb~div{
+    
+    height: 25%;
+    width: 90%;
+    margin-top: 2px;
+    display: flex;
+      justify-content: space-between;
+      font-family: OpenSans,Arial;
+      font-weight: bold;
+      font-size: 12px;
+      color:rgb(122, 122, 126);
+  }
+  #searchb~div:hover{
+      color: #ff6e26;
+  }
+  #hdown{
+     
+
+      height: 22%;
+      width: 50%;
+     
+      margin-left: 66px;
+      padding-bottom:100px ;
+     
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  #hdown>button{
+      border: none;
+      display: flex;
+      background-color:  rgb(61, 57, 57);
+     color: white;
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      opacity: .9;
+      
+  }
+  
+  #hdown>button:hover{
+    color:#ff6e26;
+     
+  }
+  .cat{
+      border-top-left-radius:7px ;
+      border-top-right-radius:7px ;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     
+  }
+.cat>span>i{
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  .cat>span~span>i{
+     padding-left: 80px;
+  }
+  #list{
+     
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 40px;
+    margin-top: -40px;
+    border-radius: 7px;
+
+  }
+
+#list>div>button{
+    margin-top: 0px;
+    margin-left: 10px;
+  border: none;
+    display: grid;
+   
+    background-color:white;
+}
+
+  #list>div>button{
+     
+      margin-bottom: 16.5px;
+      
+      color: rgb(61, 57, 57);
+      font-family: OpenSans,Arial;
+      font-size: 13px;
+  }
+  #list>div>button>a{
+      font-size:14px ;
+      text-decoration: none;
+      color: black;
+      font-family: OpenSans,Arial;
+      opacity: .9;
+  }
+  #list>div>button>a:hover{
+      color: #ff6e26;
+      font-weight: bold;
+  }
+  #list>div>button:hover{
+     color: #ff6e26;
+     font-weight: bold;
+    
+    
+ }
+  
+
+
+
+
+
+  #down{
+    
+      
+      height: 500px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content:space-between;
+
+  }
+
+  #down>div{
+      height:100%;
+      width:18%;
+     
+  }
+ #down>#dj{
+      width: 57%;
+      
+  }
+  #dj>div{
+   
+      height: 55%;
+      width: 100%;
+    
+  }
+  #dj>div>img{
+      height: 100%;
+      width: 100%;
+  }
+  #dj>div~div{
+    
+      height: 40%;
+      margin-top: 2.5%;
+     }
+  
+   
+     .button{
+         display: flex;
+      
+         width: 90%;
+         margin: auto;
+         justify-content: space-between;
+         margin-bottom: -20px;
+     }
+     .button>button{
+      padding: 4% 14%;
+      border: none;
+      background-color: rgb(255,119,38);
+      border-radius: 20px;
+     }
+ .button>button>a{        
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .button>button~button{
+      background-color:white;
+     
+      border: 1px solid;
+  }
+  .button>button~button>a{
+     text-decoration: none;
+     color: black;
+  }
+  .nt{
+    
+      height: 12%;
+      width: 25%;
+     margin: auto;
+     margin-top: 25px;
+     border-radius: 50%;
+     overflow: hidden;
+  
+  }
+  .nt>img{
+      height: 100%;
+      width: 100%;
+  }
+  #dj~div>h3{
+      text-align: center;
+  }
+  #dj~div>hr{
+      margin-top: 30%;
+   
+  }
+  #dj~div{
+ padding-left:10px ;
+ width: 21%;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 8px;
+
+  }
+  .button~h4{
+      margin-top: 40px;
+  }
+  .button~hr~h4~ul>li{
+  margin-left: -20px;
+  padding-bottom: 12px;
+  list-style: none;
+  }
+  .button~hr~h4~ul~button{
+      text-align: end;
+      border: none;
+      background-color: white;
+      margin-left: 170px;
+      font-size: 15px;
+  }
+  .button~hr~h4~ul~button:hover{
+   color: #ff6e26;
+  }
+
+
+
+
+  #last
+  {  
+      height: 500px;
+      width: 100%;
+      display: flex;
+      margin-top: 80px;
+      background-color:rgb(245, 245, 245);
+  }
+  #last>div{
+     
+   
+      height: 100%;
+      width: 25%;
+      margin: auto;
+      font-family: sansSarif,Arial;
+  }
+  #last>div>h3{
+     padding-bottom: 20px;
+     font-size: 17px;
+  }
+  #last>div>p{
+      padding-bottom: 6px;
+      font-size: 14px;
+  }
+  #last>div>input{
+      border:none;
+      background-color: rgb(245, 245, 245);
+  }
+  @media all and (min-width:380px) and (max-width:700px){
+   #container{
+       width:80%;
+       
+   }
+}
+@media all and (min-width:50px) and (max-width:379px){
+    #container{
+
+width: 50%;
+}
+}
