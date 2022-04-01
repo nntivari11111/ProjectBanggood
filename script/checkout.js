@@ -1,7 +1,7 @@
 document.querySelector("form").addEventListener("submit", signUpFun);
 var data=JSON.parse(localStorage.getItem("car"));
- 
-var userData = JSON.parse(localStorage.getItem("userCreds"))||[]
+document.querySelector("#h1").append(data);
+var userData = JSON.parse(localStorage.getItem("usrCreds"))||[]
 function signUpFun() {
   event.preventDefault();
 
@@ -14,6 +14,6 @@ function signUpFun() {
  
   userData.push(userObj);
   
-  localStorage.setItem("userCreds",JSON.stringify(userData))
+  localStorage.setItem("usrCreds",JSON.stringify(userData))
 
 }
