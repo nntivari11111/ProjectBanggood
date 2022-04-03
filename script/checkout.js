@@ -11,7 +11,7 @@ function signUpFun() {
     cvv:document.querySelector("#cvv").value,
   };
   
- 
+  window.location.href = "otp.html";
   userData.push(userObj);
   
   localStorage.setItem("usrCreds",JSON.stringify(userData))
